@@ -1,0 +1,48 @@
+html{ 
+
+box-sizing: border-box; 
+font-size: 10px; 
+background: #ffc600;
+ }
+
+ *, *:before, *:after{ 
+
+box-sizing: inherit;
+
+ }
+ 
+ body{
+
+padding: 0;
+margin: 0; 
+font-family: 'Amatic SC', cursive;
+  }
+
+  h1{ 
+
+  text-align: center;
+  font-size: 10rem; 
+  line-height: 1; 
+  margin-bottom: 0; 
+   }
+
+   .score{
+   	background:
+   	padding: 0 3rem;
+   }
+
+   .mole{ 
+
+   background:url('img/banana.png') bottom center no-repeat;
+   background-size: 60%; 
+   position: absolute; 
+   top: 100%; 
+   width: 100%; 
+   height: 100%; 
+   transition: all 0.4s; 
+    }
+
+    .hole.up .mole{
+    	top: 0;
+    }
+

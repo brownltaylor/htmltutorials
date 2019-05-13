@@ -1,0 +1,41 @@
+
+body{ 
+
+text-align: center; 
+}
+
+#about{ 
+
+border: 2px dotted white;
+border-radius:80px;
+background-image: url('img/pinappleyellow.jpg');
+width: 600px;
+height: 600px; 
+text-align: center;
+
+}
+
+#fruits{ 
+
+border: 2px dotted white;
+border-radius:80px;
+background-image: url('img/strawberryyellow.jpg');
+width: 600px;
+height: 100px; 
+text-align: center;
+ }
+
+ #veggies{ 
+
+ border: 2px dotted white;
+border-radius:80px;
+background-image: url('img/tomatoesyellow.jpg');
+background-position: center;
+width: 600px;
+height: 500px; 
+text-align: center; }
+
+#recipes{
+
+	
+}
